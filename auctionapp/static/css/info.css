@@ -1,0 +1,90 @@
+
+.info{
+    display: flex;
+    
+}
+.info .single-big-img{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+.info .single-big-details{
+    width: 50%;
+    padding-top: 20px;
+
+}
+
+.info .single-big-details h4{
+    padding: 5px 0 2px 0;
+    font-size: large;
+}
+.info .single-big-details h3{
+    font-size: larger;
+}
+.info .single-big-details h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: crimson;
+}
+.info .single-big-details span{
+    font-size: medium;
+    line-height: 25px;
+}
+.info .single-big-details select{
+    display: block;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+
+.inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputBox .input{
+    width:49%;
+}
+
+.inputBox .input span{
+    display:block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+.inputBox .input input,
+.inputBox .input textarea{
+    background:#eee;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+.inputBox .input input:focus,
+.inputBox .input textarea:focus{
+    border:.1rem solid var(--green);
+}
+
+.inputBox .input textarea{
+    height:20rem;
+    resize: none;
+}
+
+.btn{
+    margin-top: 0;
+}

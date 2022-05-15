@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}      
+        <!-- Info section starts  -->
+
+        <section class="info" id="info" style="padding-top: 5%;">
+            <div class="single-big-img">
+            <img src="images/audi a6 2002.jpg" width="100%" id="MainImg" alt=""> 
+
+            <div class="small-img-group">
+                <div class="small-img-col>">
+                    <img src="images/audi a6 2002.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col>">
+                    <img src="images/audi a6 2002.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col>">
+                    <img src="images/audi a6 2002.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+            </div>
+            <div class="single-big-details">
+                <h6 style="font-size: xx-large;">Title: Audi A6 2002 </h6>
+                <h4>Brand: Audi</h4><h4>Model: A6</h4><h4>Manafacturing Year: 2002</h4><h4>Transmission: Manual</h4><h4>Milage: 49,000</h4><h4>Fule: Petrol</h4><h4>Tax: 1,600</h4><h4>MPG: 45</h4><h4>Engine: 1.2L</h4>
+                <h3 style="font-size: x-large;">Car Details</h3>
+                <span>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</span>
+                <h2> Higest Bid: £ 1,785</h2>
+                <form action="">
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Put Your Bid</span>
+                            <input type="text" placeholder="Enter Your Bid">
+                        </div>
+                    </div>
+                </form>
+                <input type="submit" value="Bid now" class="btn">
+            </div>
+        </section>
+
+
+        <!-- info section ends -->
+
+{% endblock %}

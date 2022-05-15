@@ -1,0 +1,537 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %} 
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Deals</span>
+                    <h3>Classic Cars</h3>
+                    <p>Some of old cars might be your furtune or first cars to drive on a road.</p>
+                    <a href="#" class="btn">Get Now</a>
+                </div>
+                <div class="image">
+                    <img src="{% static 'images/banner2.jpg' %}" alt="hello">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Reseal Value</span>
+                    <h3>Price Prediction of your car</h3>
+                    <p>It will gives you best market value by using machine learning price prediction for Reseal.</p>
+                    <a href="#" class="btn">Upload Now</a>
+                </div>
+                <div class="image">
+                    <img src="{% static 'images/banner5.png' %}" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Fast Sales within a Day</span>
+                    <h3>Sales your old car</h3>
+                    <p>You can sales your old car or exchange with new one.</p>
+                    <a href="#" class="btn">Upload Now</a>
+                </div>
+                <div class="image">
+                    <img src="{% static 'images/banner4.png' %}" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+<!-- cars section starts  -->
+
+<section class="cars" id="cars">
+
+    <h3 class="sub-heading"> Bidding cars </h3>
+    <h1 class="heading"> PLace YOUR BID HERE </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="{% static 'images/mer.jpg' %}" alt="">
+            <h3>Mercedes C350</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>£11,250</span>
+            <p>&nbsp;</p>
+            <a href="#" class="btn">Place Your Bid</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="{% static 'images/bmw.png' %}" alt="">
+            <h3>BMW M3</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>£8,600</span>
+            <p>&nbsp;</p>
+            <a href="#" class="btn">Place Your Bid</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="{% static 'images/ford.jpg' %}" alt="">
+            <h3>Ford Feasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>£2,300</span>
+            <p>&nbsp;</p>
+            <a href="#" class="btn">Place Your Bid</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="{% static 'images/vw.jpg' %}" alt="">
+            <h3>Volkswagen Polo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>£2,050</span>
+            <p>&nbsp;</p>
+            <a href="#" class="btn">Place Your Bid</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="{% static 'images/audiR3.jpg' %}" alt="">
+            <h3>Audi RS3</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>£4,900</span>
+            <p>&nbsp;</p>
+            <a href="#" class="btn">Place Your Bid</a>
+        </div>
+
+      
+
+    </div>
+
+</section>
+
+<!-- cars section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="{% static 'images/about.png' %}" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Best Car Evaluation Site</h3>
+            <p>We helps to understand problem of price of second hand cars, so we bring new evolution self learning price pridiction of yours cars to gives you reseal value instantly.</p>
+            <p>This site use Machine learning with diffrent types of cars dataset to gives you perfect accuracy car price.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fa fa-upload"></i>
+                    <span>Upload Your car</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Price Prediction</span>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-headset"></i>
+                    <span>Reseal Service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- resell section starts  -->
+
+<section class="resell" id="resell">
+
+    <h3 class="sub-heading"> our Resell Cars </h3>
+    <h1 class="heading"> Top Resell valued Cars </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/audi a6 2002.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Audi A6 2002</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£1,785</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/bmwz4.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>BMW Z4 2004</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£2,560</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/audiR3.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Audi R3</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£3,650</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/fordgalaxy.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Ford Galaxy 2010</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">$7,800</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/hundacivic.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Hunda Civic 2007</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£3,450</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/peugeot 2008 2014.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Peugeot 2OO8 2014</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£6,900</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/suzukiswift.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Suzuki Swift 2008</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£1,950</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/vauxhall corsa.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Vauxhall Corsa 2012</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£8,800</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="{% static 'images/mazda 6 2007.jpg' %}" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mazda 6 2007</h3>
+                <p>Everthing refurbished, small scrtch on back, leather seat been changed as brand new. this car is on cheapest price on market.</p>
+                <a href="#" class="btn">Buy Now</a>
+                <span class="price">£1,700</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- resell section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="{% static 'images/pic-1.png' %}" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="{% static 'images/pic-2.png' %}" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="{% static 'images/pic-3.png' %}" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="{% static 'images/pic-4.png' %}" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h3 class="sub-heading"> contact Us </h3>
+    <h1 class="heading"> Fell Free To Leave a Message </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your email</span>
+                <input type="email" placeholder="enter your email address">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Message Send" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+{% endblock %}
+

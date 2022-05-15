@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- upload section starts  -->
+
+<section class="upload" id="upload">
+
+    <h3 class="sub-heading"> upload now </h3>
+    <h1 class="heading"> Pridict your car price </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Upload Images</span>
+                <input type="file" id="file" accept="image/*">
+            </div>
+            <div class="input">
+                <span>Title of Ads</span>
+                <input type="text" placeholder="enter ads title">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Car Brand</span>
+                <input type="text" placeholder="enter car brand">
+            </div>
+            <div class="input">
+                <span>Car Model</span>
+                <input type="text" placeholder="enter car model">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Manafacturing Year</span>
+                <input type="number" placeholder="year of manafactured">
+            </div>
+            <div class="input">
+                <div class="custom-select">    
+                    <span>Transmission Type</span>
+                    <select name = "transmission" id="transmission" onchange="changeStatus" style="padding: 10px 10px;">
+                        <option value="manual">Manual</option>
+                        <option value="automatic">Automatic</option>
+                        <option value="semi-auto">Semi-Automatic</option>
+                    </select>
+                </div>
+            </div> 
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Milage</span>
+                <input type="number" placeholder="milage number">
+            </div>
+            <div class="input">
+                <div class="custom-select">    
+                    <span>Fule Type</span>
+                    <select name = "fuleType" id="fuleType" onchange="changeStatus" style="padding: 10px 10px;">
+                        <option value="petrol">Petrol</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="hybrid">Hybrid</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Tax</span>
+                <input type="number" placeholder="number of tax">
+            </div>
+            <div class="input">
+                <span>Mile Per Gallon</span>
+                <input type="number" placeholder="number of mpg">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Engine Size</span>
+                <input type="number" placeholder="size of engine">
+            </div>
+            <div class="input">
+                <span>Price</span>
+                <input type="number" placeholder="price of your car">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Discription of yor car</span>
+                <textarea name="" placeholder="enter discription about 25 words" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="upload now" class="btn">
+
+    </form>
+
+</section>
+
+<!-- upload section ends -->
+{% endblock %}
